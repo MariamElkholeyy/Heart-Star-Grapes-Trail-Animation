@@ -1,33 +1,58 @@
-body{
+/* 
+  Styles for the heart trail animation
+*/
+
+body {
+    /* Set the margin to 0 to remove any default spacing */
     margin: 0;
+    /* Set the height to 100vh to make the animation full-screen */
     height: 100vh;
-    background-color:black;
+    /* Set the background color to black */
+    background-color: black;
+    /* Hide any overflow to prevent scrolling */
     overflow: hidden;
-
-}
-
-span{
+  }
+  
+  span {
+    /* Set the background image to a heart icon */
     background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
+    /* Set the width and height to 100px */
     width: 100px;
     height: 100px;
+    /* Position the span element absolutely */
     position: absolute;
+    /* Disable pointer events to prevent interaction */
     pointer-events: none;
+    /* Set the background size to cover the entire element */
     background-size: cover;
+    /* Center the element horizontally and vertically */
     left: 50%;
     top: 50%;
-    transform: translate(-50% , -50%);
-    animation: animate 6s linear;
-}
-
-@keyframes animate {
-  0% {
     transform: translate(-50%, -50%);
-    opacity: 1;
-    filter: hue-rotate(0);
+    /* Animate the element using the animate keyframes */
+    animation: animate 6s linear;
   }
-  100% {
-    transform: translate(-50%, -5000%);
-    opacity: 0;
-    filter: hue-rotate(720deg);
+  
+  @keyframes animate {
+    /* 
+      Define the animation keyframes
+      0%: Starting point
+      100%: Ending point
+    */
+    0% {
+      /* Set the initial transform to center the element */
+      transform: translate(-50%, -50%);
+      /* Set the initial opacity to 1 */
+      opacity: 1;
+      /* Set the initial hue rotation to 0 */
+      filter: hue-rotate(0);
+    }
+    100% {
+      /* Set the final transform to move the element off-screen */
+      transform: translate(-50%, -5000%);
+      /* Set the final opacity to 0 */
+      opacity: 0;
+      /* Set the final hue rotation to 720 degrees */
+      filter: hue-rotate(720deg);
+    }
   }
-}
