@@ -15,7 +15,7 @@ body {
   
   span {
     /* Set the background image to a heart icon */
-    background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
+    /* background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png"); */
     /* Set the width and height to 100px */
     width: 100px;
     height: 100px;
@@ -55,4 +55,82 @@ body {
       /* Set the final hue rotation to 720 degrees */
       filter: hue-rotate(720deg);
     }
+  }
+
+  .shapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.heart, .star ,.grape {
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .heart {
+    background-image: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
+  }
+  
+  .star {
+    background-image: url("https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/020_-_Star-512.png");
+  }
+
+  .grape{
+    background-image: url("https://cdn2.iconfinder.com/data/icons/shiny-fruits/100/grapes-3-1024.png");
+    
+  }
+/* button {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 30px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    position: relative;
+  }
+  
+  .star, .heart {
+    width: 40px;
+    height: 40px;
+    background-size:contain;
+  }
+  
+  .heart {
+    background-image: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
+    background-size: contain;
+  }
+  
+  .star {
+    /* add your star image here */
+    /* background-image: url("https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/020_-_Star-512.png");
+    background-size: contain;
+  } */ 
+
+
+
+  Edit
+  Copy code
+  .heart-style {
+    background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .star-style {
+    background: url("https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/020_-_Star-512.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .grape-style {
+    background: url("https://cdn2.iconfinder.com/data/icons/shiny-fruits/100/grapes-3-1024.png");
+    background-size: cover;
+    background-position: center;
   }
