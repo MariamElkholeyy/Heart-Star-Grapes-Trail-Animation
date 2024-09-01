@@ -84,39 +84,6 @@ body {
     background-image: url("https://cdn2.iconfinder.com/data/icons/shiny-fruits/100/grapes-3-1024.png");
     
   }
-/* button {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    padding: 30px;
-    background-size: cover;
-    border: none;
-    border-radius: 50%;
-    background-color: #4CAF50;
-    position: relative;
-  }
-  
-  .star, .heart {
-    width: 40px;
-    height: 40px;
-    background-size:contain;
-  }
-  
-  .heart {
-    background-image: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
-    background-size: contain;
-  }
-  
-  .star {
-    /* add your star image here */
-    /* background-image: url("https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/020_-_Star-512.png");
-    background-size: contain;
-  } */ 
-
-
-
-  Edit
-  Copy code
   .heart-style {
     background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-512.png");
     background-size: cover;
